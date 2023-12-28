@@ -1,0 +1,26 @@
+*************************************pointer*******************************************************************
+caret-color:red ; slectioned elemet should be red ;
+pointer-event :none; => we nedd it for not touched again element touchend befor 
+************************************grid************************************************************************
+display:grid;
+grid-templat-columns:100px 100px 100px ; => we give to computer how many columns we need in our template .
+                     25% 25% 25% 25%   ; => pourcent element.
+                     auto auto auto ato; => automaticly .
+ps:we can mix our code from px, pourcent ,and finaly  auto default .
+we have function repat we can put inside how many  culmn we need to add and modified 
+-we have another type ou sising is fraction:1fr.
+like all say the fraction is gridy ,and the auto is shy ;
+so when we put them togheteher the fraction take the biggest surfce of our content given .
+grid-templat-rows:100px auto 200px => he accet all type of sizing mixed .
+row-gap:10px => the surface between rows.
+column-gap:10px the surface betwenn column.
+gap:[row gap][column gap]=> short hand code 
+PS: we cann add flex code to grid.
+wee need grid for orgnise our content in page like we want in using grid area .
+but firstfull we need to open  in home page a grid template area for example
+.page {
+grid-template-area:footer footer ....... => its depend on how many column we have 
+}
+footer {
+grid-area:footer;
+}
